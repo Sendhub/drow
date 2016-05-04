@@ -2,7 +2,7 @@ from setuptools import setup
 from setuptools import find_packages
 
 setup(
-    name='Drow',
+    name='drow',
     version='0.1.0',
     description='A flexible, user-friendly Riak ORM',
     long_description='A flexible, user-friendly Riak ORM loosely based '
