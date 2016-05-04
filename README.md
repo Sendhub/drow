@@ -36,7 +36,7 @@ At its simplest, one need only declare a model.  Here is some sample Python code
 ```python
     import json
     
-    from drow.model import Model
+    from drow.models import Model
     from drow.fields import AutoDateField
 
 
