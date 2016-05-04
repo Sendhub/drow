@@ -1,0 +1,15 @@
+import riak
+
+RIAK_CREDENTIALS = {
+    'username': 'username',
+    'password': 'password',
+    'cacert_file': 'cacert.pem'
+}
+
+RIAK_HOSTS = ['127.0.0.1']
+
+RIAK_CLIENT = riak.RiakClient(
+    nodes=RIAK_HOSTS,
+    credentials=RIAK_CREDENTIALS,
+    multiget_pool_size=20
+)
